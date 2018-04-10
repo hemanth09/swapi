@@ -1,0 +1,14 @@
+.item-list-item:hover {
+  background-color: #33a39b !important;
+  transition: background-color 0.5s;
+}
+
+.item-list-item {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.item-list-item h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
